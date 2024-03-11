@@ -147,6 +147,9 @@ db.data.aggregate(
 			_id : 0,
 			count: 1
 		}
+	},
+	{
+		$match: {age : {$ne : null}}
 	}
 ]
 )
