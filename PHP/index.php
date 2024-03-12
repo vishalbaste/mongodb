@@ -1,4 +1,12 @@
 <?php
+
+/**
+ * Install mongodb in PHP use steps
+ * Download .dll file from:- https://pecl.php.net/package/mongodb
+ * Copy and Paste it in C:\xampp\php\ext\php_mongodb.dll
+ * Add in php.ini -> extension=mongodb
+ * Install Library -> composer require mongodb/mongodb
+ */
     require 'vendor/autoload.php';
     use MongoDB\Client;
 
