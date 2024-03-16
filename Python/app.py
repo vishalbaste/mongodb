@@ -97,6 +97,7 @@ insert_many_documents([
 
 # B. Find Documents
 # find_documents({"age": {"$gt":15}})
+find_documents({})
 
 # C. Update Documnt
 """
